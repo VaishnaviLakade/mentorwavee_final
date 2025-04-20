@@ -1,0 +1,87 @@
+.flex.container.custom-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: black;
+}
+.ui.image {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 50%;
+  background-color: transparent;
+}
+.custom-column {
+  flex: 1 1 50%;
+  padding: 10px;
+  height: 100%;
+  color: black;
+  font-style: normal;
+  border: 1px solid #ccc;
+
+}
+.custom-account-container {
+  display: inline-block;
+  background-color: #6ac0cc;
+  width: fit-content;
+  margin-left: 40px;
+  padding: 10px;
+  border-radius: 4px 8px 16px 0px;
+  color: #fefefe;
+}
+
+.image-bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:10px;
+}
+
+.info {
+  padding: 10px;
+  height: 100%;
+}
+.flex.container h4 p {
+  color: black;
+}
+.custom-account-form {
+  margin: 20px 25%;
+  width: 50%;
+  inset: 0;
+  padding: 20px;
+  background-color: #F7F3FE;
+  border: 0.5px solid rgb(204, 197, 197);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+} 
+.ui.form {
+  border: 0.5px solid rgb(236, 228, 228);
+  
+} 
+#account-container {
+  background-color: #F7F3FE;
+}
+.form-group input, textarea, select{
+  background-color: #f8f6fa !important;
+  
+}
+.form-group img {
+  display: block;
+  margin: 0 auto;
+}
+
+#mentee-image {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border: 6px solid #fefefe;
+  border-radius: 50%;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px){
+  .custom-account-form{
+    margin:auto;
+    width:95%;
+  }
+}

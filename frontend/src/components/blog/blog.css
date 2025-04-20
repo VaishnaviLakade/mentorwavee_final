@@ -1,0 +1,90 @@
+/* General Styling for the Blog */
+.ui.padded.segment {
+  background-color: #F7F3FE;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 30px auto;
+  max-width: 800px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Title and Author Styling */
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #2F4F4F;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 22px;
+  color: #2E8B57;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+h2 + h2 {
+  margin-top: 30px;
+}
+
+/* Paragraph and Subheadings */
+h3 {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  text-align: justify;
+  margin-bottom: 15px;
+  padding: 0 10px;
+}
+
+/* List Styling */
+ul {
+  list-style-type: none;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+ul li {
+  margin-bottom: 12px;
+}
+
+ul li h3 {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.5;
+  padding-left: 5px;
+}
+
+/* Last Section (Conclusion) */
+h3:last-child {
+  font-size: 16px;
+  color: #333;
+  text-align: justify;
+  line-height: 1.6;
+  margin-top: 15px;
+  padding: 0 10px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .ui.padded.segment {
+    padding: 20px;
+    margin: 15px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3,
+  ul li h3 {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}

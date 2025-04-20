@@ -1,0 +1,57 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "donvine",
+      "lastName": "mugendi",
+      "email": "donvinemugendi@gmail.com",
+      "password": "donvine2030",
+      "role": "mentee",
+      "agreedToTerms": true
+    },
+    {
+      "id": "a6fbe8b3-73b9-440e-b13d-cdce3f39109a",
+      "firstName": "diamond",
+      "lastName": "degesh",
+      "email": "diamonddegesh@gmail.com",
+      "password": "platinumz",
+      "role": "mentee",
+      "agreedToTerms": true
+    },
+    {
+      "id": "5e1d",
+      "fullName": "Ankita",
+      "email": "Ankita@gmail.com",
+      "password": "Ankita@12",
+      "role": "mentee"
+    },
+    {
+      "id": "1054",
+      "fullName": "Vaishnavi Lakade",
+      "email": "lakadevaishu26@gmil.com",
+      "password": "Avni#@123",
+      "role": "mentee"
+    },
+    {
+      "id": "23c2",
+      "fullName": "nbnb",
+      "email": "lakadevaishu26@gmil.com",
+      "password": "Avni#@123",
+      "role": "mentor"
+    },
+    {
+      "id": "5178",
+      "fullName": "dfdf",
+      "email": "lakadevaishu26@gmil.com",
+      "password": "Avni#@123",
+      "role": "mentor"
+    },
+    {
+      "id": "be4f",
+      "fullName": "Jaya",
+      "email": "lakadevaishu27@gmail.com",
+      "password": "Avni#@123",
+      "role": "mentor"
+    }
+  ]
+}

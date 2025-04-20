@@ -1,0 +1,138 @@
+/* Base styling for container */
+.flex.container.custom-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f7f3fe;
+  padding: 30px;
+  gap: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Column styling */
+.custom-column {
+  flex: 1 1 45%;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Avatar and bio section */
+.image-bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* Fix profile image positioning */
+#mentee-image {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #f7f3fe;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-bottom: 20px;
+}
+
+
+/* Buttons */
+.ui.buttons {
+  margin-top: 20px;
+}
+
+.ui.button {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Info section */
+.info h4 {
+  margin: 15px 0;
+  font-weight: normal;
+}
+
+.custom-account-container {
+  display: inline-block;
+  background-color: #6ac0cc;
+  color: white;
+  padding: 6px 12px;
+  margin-left: 10px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+/* Mentoring Preferences List */
+.custom-account-container ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 5px 0;
+}
+
+.custom-account-container li {
+  margin: 5px 0;
+}
+
+/* Social icons */
+.ui.segment i.icon {
+  margin: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.ui.segment i.icon:hover {
+  transform: scale(1.2);
+}
+
+/* Customize Profile Button */
+.ui.fluid.button {
+  margin-top: 20px;
+  background-color: #ffeaa7 !important;
+  color: #2d3436 !important;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.ui.fluid.button:hover {
+  background-color: #fab1a0 !important;
+}
+
+/* Header section */
+.ui.inverted.segment {
+  background-color: #6c5ce7 !important;
+  color: white !important;
+  border-radius: 0;
+  text-align: center;
+}
+
+.ui.inverted.segment h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/* Responsive Fix */
+@media (max-width: 768px) {
+  .custom-column {
+    flex: 1 1 100%;
+  }
+
+  #mentee-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .custom-account-container {
+    display: block;
+    margin-left: 0;
+    margin-top: 5px;
+  }
+}

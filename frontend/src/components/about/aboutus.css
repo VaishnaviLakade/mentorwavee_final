@@ -1,0 +1,150 @@
+/* General Section Styling */
+.section {
+  background-color: #f7f3fe;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin: 30px auto;
+  max-width: 1000px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Headings */
+.ui.centered.header {
+  text-align: center;
+  font-size: 28px;
+  color: #4b0082;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+/* Paragraph Styling */
+.ui.content p,
+.ui.bold.header {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-weight: 500;
+  text-align: justify;
+}
+
+/* Values List */
+ul.ui.content {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+ul.ui.content li.ui.header {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #f7f3fe;
+  padding: 40px 25px;
+  border-radius: 12px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+#testimonials .ui.card {
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+blockquote.card.content {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+  position: relative;
+  padding: 10px;
+  text-align: justify;
+}
+
+.card.content.header {
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 10px;
+  color: #555;
+}
+
+.ui.italized.header {
+  font-style: italic;
+  font-weight: 400;
+  color: #777;
+}
+
+i.icon.centered {
+  display: inline-block;
+  margin: 0 6px;
+  vertical-align: middle;
+}
+
+/* Team Members */
+.custom-flex-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+#custom-image {
+  width: 70px !important;
+  height: 70px !important;
+  object-fit: cover;
+}
+
+.custom-h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #4b0082;
+  margin: 0;
+}
+
+/* Card Descriptions */
+.card.content p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .section,
+  #testimonials {
+    padding: 25px 15px;
+  }
+
+  .ui.centered.header {
+    font-size: 22px;
+  }
+
+  .ui.content p,
+  ul.ui.content li.ui.header,
+  blockquote.card.content,
+  .card.content.header {
+    font-size: 14px;
+  }
+
+  .custom-flex-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #custom-image {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .custom-h2 {
+    font-size: 16px;
+  }
+}
+
